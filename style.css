@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/*tabela da esquerda*/
+.esquerda{
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #2e3136;
+    color: #e6e3e3;
+    position: absolute;
+    top: 0;
+    width: 18em;
+    left: 0;
+}
+
+.titulo1{
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #1e2024;
+}
+
+.bi-list{
+    float: right;
+    margin-left: 50px;
+    margin-right: 5px;
+    font-size: 20pt;
+}
+
+.icone,.voice{
+    line-height: 2rem;
+}
+
+.voice{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.bi-lock{
+    margin-left: 170px;
+    color: #424346;
+}
+
+.bi-mic-mute1{
+    margin-left: 113px;
+}
+
+.bi-mic-mute2{
+    margin-left: 64px;
+}
+
+.bi-mic-mute3{
+    margin-left: 23px;
+}
+
+.mark{
+    margin-left: 1rem;
+}
+
+.bi-hash{
+    margin-right: 5pt;
+}
+
+.escuro{
+    color: #383b40;
+}
+
+.icone{
+    list-style-image: url("icons/chevron-down.svg");
+}
+
+.foto{
+    list-style-image: url("imagens/menor3.png");
+}
+
+.voice, .icone, .badge, .foto{
+    color: #5e6064;
+}
+
+.badge{
+    margin-left: 75px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #32353a;
+    border-radius: 5px;
+}
+
+/*caixa menor 1*/
+.menor1{
+    background-color: #282b30;
+    padding: 1px;
+    border-top: 1px solid #1e2024;
+    border-bottom: 1px solid #1e2024;
+}
+
+.conect{
+    color: #43b581;
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.bi-bar-chart-fill{
+    color: #43b581;
+    margin-right: 5px;
+}
+
+.botao{
+    background-color: #2f3338;
+    padding: 10px;
+    border-radius: 4px;    
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.botoes1{
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.informacao{
+    margin-left: 2rem;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.telefonex{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.bi-info, .bi-telephone-x,.bi-mic, .bi-headphones, .bi-gear{
+    color: #54575d;
+}
+
+.subtext{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 7.8pt;
+    color: #585a5e;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+/*segunda caixa menor 2*/
+.menor2{
+    background-color: #282b30;
+    padding: 1px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #4e4f52;
+}
+
+/*imagem do usuario*/
+.img{
+    margin-top: 3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.imgSemSubtex{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.imagem{
+    height: 25px;
+    width: 25px;
+    margin-top: 3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.imagemSemSubtex{
+    height: 25px;
+    width: 25px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.dolibear{
+    height: 40px;
+    width: 40px;
+    margin-top: 3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+/*parte do usuario nome e subtex*/
+.nome,.nomeSemSubtext{
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
+
+.nomeSemSubtext{
+    line-height: 15pt;
+}
+
+.ultimo{
+    margin-bottom: 1rem;
+}
+
+.subtext2{
+    font-size: 9pt;
+    color: #585a5e;
+    margin-top: 0px;
+    margin-left: 55px;
+}
+
+.subtext2{
+    line-height: 1rem;
+}
+
+.botao2{
+    background-color: #2f3338;
+    padding: 10px;
+    border-radius: 4px;    
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.botoes2{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10pt;
+}
+
+
+.mic{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.headphones{
+    border-radius: 0px;
+}
+
+.gear{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+/*terceira caixa menor 3*/
+.menor3{
+    background-color: #282b30;
+    padding: 1px;
+}
+
+.cdc{
+    font-size: 8.2pt;
+    color: #585a5e;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*caixa do centro titulo*/
+.centro{
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #36393e;
+    color: #e6e3e3;
+    position: absolute;
+    top: 0;
+    width: 66.3em;
+    margin-left: 280px;
+}
+
+.botao3{
+    background-color: #36393e;
+    border: 1px solid #36393e;
+    color: #abacae;
+    font-size: 20pt;
+}
+
+.gema{
+    float: right;
+    margin-top: 5px;
+}
+
+.centroBaixo{
+    background-color: #36393e;
+    /*border: 1px solid #ff0000;*/
+    position: absolute;
+    top: 3rem;
+    width: 48.3em;
+    margin-left: 0;
+}
+
+.subTitulo{
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #474a50;
+    color: #949494;
+}
+
+.ruleStyle{
+    color: #adadad;
+}
+
+
+.questao{
+    border-left: 1px solid #46494d;
+    border-right: 1px solid #46494d;
+}
+
+.rule{
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #1e2024;
+}
+
+.hashtag{
+    color: #848889;
+    margin-right: 2px;
+}
+
+/*caixa da direita*/
+.direita{
+    background-color: #2e3136;
+    position: absolute;
+    top: 3rem;
+    width: 18em;
+    right: 0;
+}
+
+.chefe{
+    color: #68b174;
+    font-size: 14px;
+}
+
+.tipo{
+    color: #8a8e94;
+}
+
+.mods{
+    color: #3198d5;
+}
+
+.bots{
+    color: #da5534;
+}
+
+.online{
+    color: #9698a7;
+}
+
+.titulo2{
+    color: #7c7e74;
+    margin-left: 1rem;
+}
+
+.boxBot{
+    margin-left: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    font-size: 10pt;
+    background-color: #7289da;
+    color: #ffffff;
+}
+
+.estadoOnline{
+    position: absolute ;
+    transform: translateY(-25px);
+    margin-left: 2rem;
+}
+
+.dot{
+    position: relative ;
+}
+
+.estadoOnlineSemSubtitulo{
+    position: absolute;
+    transform: translateY(-4px);;
+    left: 2rem;
+}
+
+.dotSemSubtitulo{
+    position: relative;
+}
+
+.estadoOnlineUltimo{
+    position: absolute ;
+    bottom: 10px;
+    margin-left: 2rem;
+}
+
+.UltimoDot{
+    position: relative;
+}
+
+/*usuario stalone e parte das regras*/
+.nomeRule{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #2ec255;
+}
+
+.textStallone{
+    margin-top: 0px;
+}
+
+.data{
+    font-size: 11px;
+    color: #4f515c;
+}
+
+.regras{
+    margin-left: 70px;
+    margin-right: 30px;
+    color: #b5b5b5;
+}
+
+.link{
+    color: #3070c5;
+}
+
+.support{
+    color: #6789d1;
+    background-color: #3c414d;
+}
+
+.edited{
+    color: #4f575c;
+    font-size: 7pt;
+}
+
+.redt{
+    border-left: 5px solid #484b4f;
+    margin-bottom: 80px;
+    padding-left: 10px;
+}
+
+#digitaMensagem{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-top: 1px solid #424549;
+}
+
+.digitaMensagem{
+    border: 3px solid #424549;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top:  10px;
+    margin-bottom: 47px;
+    color: #474a4f;
+}
+
+.bola{
+    position: absolute;
+    top: 94%;
+    left: 37px;
+}
